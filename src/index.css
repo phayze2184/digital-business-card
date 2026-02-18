@@ -29,3 +29,9 @@ h2 {
     font-size: 1em; /* 16px */
     font-weight: 600px;
 }
+
+p {
+    line-height: 1.5;
+    font-size: clamp(0.8em 0.9vh 1em);
+    color: var(--paragraph);
+}
