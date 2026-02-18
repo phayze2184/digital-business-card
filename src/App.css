@@ -43,13 +43,6 @@ section {
     gap: 4px;
 }
 
-.name {
-    font-size: 1.56rem; /* 25px */
-    line-height: 1;
-    margin-bottom: 0;
-    margin-top: 32px;
-}
-
 .role {
     font-size: 0.8em; /* 12.8px */
     color: #F3BF99;
