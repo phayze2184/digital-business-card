@@ -1,0 +1,193 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    background-color: #1A1B21;
+    margin: auto;
+    margin-top: 44px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2.18em; /* 35px */
+    gap: 5px;
+    margin: 0 !important;
+}
+
+/* INFO */
+
+#info {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.profile-pic {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.name {
+    font-size: 1.56rem; /* 25px */
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 32px;
+}
+
+.role {
+    font-size: 0.8em; /* 12.8px */
+    color: #F3BF99;
+}
+
+.website {
+    color: #F5F5F5;
+    line-height: 1.5;
+    font-size: 0.64rem; /* 10.24px */
+}
+.contact-buttons {
+    display: flex;
+    margin: 0.95em auto 0; 
+    gap: 17px;
+}
+
+.cta-button {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   width: 115px;
+   padding: .56em 0.81em 0.56em 0.69em;  /*9px 13px 9px 11px; */
+   background-color: #fff;
+   border-radius: 6px;
+   text-align: center;
+   font-size: 0.88rem; /* 14px */
+   font-weight: 500;
+   line-height: 114.29%; /* 16px */
+   gap: 8px;
+}
+
+.email-icon {
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+#linkedin {
+    background-color: #5093E2;
+}
+
+.linkedin-icon {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.linkedin-link {
+    color: #fff;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 0.6em; /* 10px */
+    color: var(--paragraph);
+}
+
+
+/* ABOUT */
+
+#about, #interests {
+    padding-top: 24px;
+}
+
+/* INTERESTS*/
+
+#interests {
+    padding-bottom: 40px;
+}
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    padding-bottom: 20px;/* 24px */
+}
+
+@media (min-width: 768px) {
+    .card {
+        display: grid;
+        width: min(800px, calc(100% - 3rem));
+        grid-template-columns: minmax(240px, 300px) 1fr;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 48px;
+        border-radius: 12px;
+    }
+
+    .profile-pic {
+        grid-column: 1;
+        grid-row: 1 / 5;
+        height: 100%;
+        border-radius: 12px 0 0 12px;
+    }
+
+    #info {
+        grid-column: 2;
+        grid-row: 1;
+        align-items: flex-start;
+        text-align: left;
+        padding: 32px 35px 0;
+    }
+
+    .profile-info {
+        align-items: flex-start;
+    }
+
+    .name {
+        margin-top: 0;
+    }
+
+    .contact-buttons {
+        margin: 0;
+        padding-top: 18px;
+    }
+
+    #about {
+        grid-column: 2;
+        grid-row: 2;
+        padding: 24px 35px 0;
+    }
+
+    #interests {
+        grid-column: 2;
+        grid-row: 3;
+        padding: 24px 35px 0;
+    }
+
+    #footer {
+        grid-column: 2;
+        grid-row: 4;
+        padding: 24px 35px 24px;
+    }
+
+    .social-media-links {
+        justify-content: flex-start;
+        padding-bottom: 0;
+    }
+}
+
