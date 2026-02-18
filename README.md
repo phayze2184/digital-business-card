@@ -5,7 +5,7 @@ The card layout is mobile-first and switches to a desktop grid at `min-width: 76
 
 ## Live Demo
 
-Add your deployed link here: `https://your-site-url`
+Add your deployed link here: https://phayze2184.github.io/digital-business-card/
 
 ## Features
 
