@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
-  "homepage": "https://phayze2184.github.io/my-react-app"
+  "url": "https://phayze2184.github.io/digital-business-card"
   },
   "dependencies": {
     "react": "^19.2.0",
